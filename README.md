@@ -95,3 +95,11 @@ INSERT INTO `team` (`id`, `name`) VALUES
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 ```
+
+### After create the DB and import data, clone the repo and try it
+```
+git clone https://github.com/nbulian/create-fixture/
+cd create-fixture/
+composer update
+php artisan serve
+```
